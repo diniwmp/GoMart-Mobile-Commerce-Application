@@ -2,9 +2,44 @@
 <resources>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
+    <color name="purple_700">#FFFFFF</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="orange">#FA9C28</color>
+    <color name="grey">#BCBCBC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="close_grey">#7a7a7a</color>
+    <color name="min_btn_grey">#9E9E9E</color>
+    <color name="max_btn_orange">#FF6600</color>
+    <color name="red">#E53935</color>
+    <color name="p_address_grey">#AAAAAA</color>
+    <color name="text_grey">#888888</color>
+    <color name="address_check_grey">#555555</color>
+    <color name="toggle_orange">#FFCCAA</color>
+    <color name="grey_light">#EEEEEE</color>
+    <color name="forward_grey">#CCCCCC</color>
+    <color name="green_light">#25D366</color>
+    <color name="white_smoke">#F5F5F5</color>
+    <color name="dark_grey">#4C4843</color>
+    <color name="dark_green">#4CAF50</color>
+    <color name="rating_grey">#DDDDDD</color>
+    <color name="time_grey">#999999</color>
+    <color name="online_green">#22C55E</color>
+    <color name="hint_grey">#94A3B8</color>
+    <color name="b_red">#F44336</color>
+    <color name="blue">#009688</color>
+    <color name="dark_blue">#2196F3</color>
+    <color name="itemRippleColor">#33FF6600</color>
+    <color name="cream">#FFF3E0</color>
+    <color name="pro_blue">#DBEAFE</color>
+    <color name="msg_grey">#F6F6F6</color>
+    <color name="dark_red">#EF4444</color>
+    <color name="limit_stock_color">#F59E0B</color>
+
+
+
+
+
+
 </resources>

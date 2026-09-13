@@ -1,16 +1,44 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Theme.GoMart" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/white</item>
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_700</item>
-        <item name="colorOnSecondary">@color/black</item>
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+    <style name="Theme.GoMart" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- Primary -->
+        <item name="colorPrimary">#FF6600</item> <!-- orange to orange -->
+        <item name="colorPrimaryVariant">#77787B</item> <!-- gray to white -->
+        <item name="colorOnPrimary">#FFFFFF</item> <!-- white to white -->
+
+        <!-- Secondary -->
+        <item name="colorSecondary">#F5F5F5</item> <!-- gray to black -->
+        <item name="colorSecondaryVariant">#E55A00</item> <!-- dark orange to dark orange -->
+        <item name="colorOnSecondary">#FFFFFF</item> <!-- white to white -->
+
+        <!-- Background — White -->
+        <item name="android:windowBackground">#FFFFFF</item> <!-- white to black -->
+        <item name="colorSurface">#FFFFFF</item> <!-- white to black gray -->
+        <item name="colorOnSurface">#000000</item> <!-- black to white -->
+        <item name="colorOnBackground">#000000</item> <!-- black to orange -->
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">#000000</item> <!-- black to white -->
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <!-- Cards + UI -->
+        <item name="cardBackgroundColor">#FFFFFF</item> <!-- white to orange -->
+        <item name="android:windowFullscreen">false</item> <!-- black to white -->
+
+        <item name="android:textCursorDrawable">@drawable/cursor_black</item>
+
+
+
     </style>
+
+    <style name="CircleImage">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="OrangeProgressBar" parent="Widget.AppCompat.ProgressBar">
+        <item name="colorAccent">@color/orange</item>
+    </style>
+
+
+
 </resources>

@@ -1,16 +1,31 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Theme.GoMart" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/black</item>
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_200</item>
-        <item name="colorOnSecondary">@color/black</item>
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+    <style name="Theme.GoMart" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- Primary — Orange nav header stays same -->
+        <item name="colorPrimary">#FF6600</item> <!-- orange to orange -->
+        <item name="colorPrimaryVariant">#FFFFFF</item> <!-- gray to white-->
+        <item name="colorOnPrimary">#FFFFFF</item> <!-- white to white -->
+
+
+        <!-- Secondary -->
+        <item name="colorSecondary">#000000</item>  <!-- gray to black -->
+        <item name="colorSecondaryVariant">#E55A00</item> <!-- dark orange to dark orange -->
+        <item name="colorOnSecondary">#FFFFFF</item> <!-- white to white -->
+
+        <!-- Background — Black -->
+        <item name="android:windowBackground">#000000</item> <!-- white to black -->
+        <item name="colorSurface">#121212</item> <!-- white to black gray -->
+        <item name="colorOnSurface">#FFFFFF</item> <!-- black to white -->
+        <item name="colorOnBackground">#FF6600</item> <!-- black to orange -->
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">#FF6600</item> <!-- white to orange -->
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+
+        <!-- Cards + UI -->
+        <item name="cardBackgroundColor">#1A1A1A</item><!-- black gray to black gray -->
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:textCursorDrawable">@drawable/cursor_white</item>
+
     </style>
 </resources>
