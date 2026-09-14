@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="start"
+    android:paddingStart="12dp"
+    android:paddingEnd="60dp"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp">
+
+    <LinearLayout
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:background="@drawable/bg_circle"
+        android:gravity="center"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/g_text"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/msg_sender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/msg_support_text"
+            android:textColor="@color/orange"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="2dp" />
+
+        <TextView
+            android:id="@+id/msg_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_bubble_received"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:text="@string/hello_text"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:maxWidth="250dp" />
+
+        <TextView
+            android:id="@+id/msg_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/time_text"
+            android:textColor="@color/time_grey"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
