@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ProfileFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="?attr/colorSecondary">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorSecondary"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="32dp"
+            android:paddingBottom="3dp">
+
+            <FrameLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp">
+
+
+                <ImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/person" />
+
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_gravity="bottom|end"
+                    android:src="@drawable/add_24"
+                    android:background="?attr/colorOnSurface"
+                    android:padding="4dp"
+                    app:tint="@color/grey"
+                    xmlns:app="http://schemas.android.com/apk/res-auto" />
+
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/profile_info_text"
+                    android:textColor="@color/orange"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textSize="20sp"
+                 />
+
+            </LinearLayout>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="?attr/colorSecondary"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/signup_name_text"
+                        android:textColor="?attr/colorOnSurface"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/profile_full_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="4dp"
+                        android:background="@drawable/custom_edit_text"
+                        android:hint="@string/signup_name_hint_text"
+                        android:inputType="textPersonName"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="12dp"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="14dp"
+                        android:text="@string/profile_email_text"
+                        android:textColor="?attr/colorOnSurface"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/profile_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="4dp"
+                        android:background="@drawable/custom_edit_text"
+                        android:hint="@string/profile_email_text_text"
+                        android:inputType="textEmailAddress"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="12dp"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="14dp"
+                        android:text="@string/profile_phone_text"
+                        android:textColor="?attr/colorOnSurface"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/profile_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="4dp"
+                        android:background="@drawable/custom_edit_text"
+                        android:hint="@string/profile_phone_hint_text"
+                        android:inputType="phone"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="12dp"
+                        android:textSize="14sp" />
+
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/profile_btn_save"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/custom_button"
+                        android:backgroundTint="@null"
+                        android:text="@string/profile_save_btn"
+                        android:textStyle="bold"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="19sp"
+                        app:backgroundTint="@null"
+
+                        />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginTop="24dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/profile_address_Info"
+                    android:textColor="@color/orange"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/profile_address_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="vertical" />
+
+            <TextView
+                android:id="@+id/profile_no_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/profile_no_address"
+                android:textColor="@color/p_address_grey"
+                android:textSize="13sp"
+                android:visibility="gone" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/profile_btn_add_address"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/custom_edit_text"
+                android:text="@string/add_new_address"
+                android:textColor="?attr/colorOnSurface"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                app:icon="@drawable/add_24"
+                android:textStyle="bold"
+                app:iconTint="?attr/colorOnSurface"
+                app:iconGravity="textStart"
+                app:iconPadding="6dp"
+                app:backgroundTint="@null"
+                android:backgroundTint="@null" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
