@@ -74,7 +74,7 @@ public class AddAddressActivity extends AppCompatActivity implements OnMapReadyC
         }
 
         if (!Places.isInitialized()) {
-            Places.initialize(getApplicationContext(), "AIzaSyBVChQRxXh4R4JUQDERVJKfEbvJKE-wOX0");
+            Places.initialize(getApplicationContext(), "Google API Key");
         }
 
         AutocompleteSupportFragment autocompleteFragment = (AutocompleteSupportFragment)
