@@ -1,15 +1,26 @@
+# Location of the SDK. This is only applicable to each individual developer's machine.
+# Keep API keys and sensitive SDK paths hidden here:
+local.properties
+
+# Android Studio / IntelliJ project files
+.idea/
 *.iml
-.gradle
-/local.properties
+.gradle/
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
-.DS_Store
+
+# Built files & outputs
+build/
+app/build/
 /build
 /captures
 .externalNativeBuild
 .cxx
-local.properties
+
+# OS generated files
+.DS_Store
+Thumbs.db
