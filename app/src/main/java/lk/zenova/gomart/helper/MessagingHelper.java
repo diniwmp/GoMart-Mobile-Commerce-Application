@@ -5,17 +5,14 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 
+import androidx.annotation.NonNull;
 import androidx.core.app.NotificationCompat;
 
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
 
-import lk.zenova.gomart.activity.MainActivity;
-
-
-import androidx.annotation.NonNull;
-
 import lk.zenova.gomart.R;
+import lk.zenova.gomart.activity.MainActivity;
 
 public class MessagingHelper
         extends FirebaseMessagingService {
