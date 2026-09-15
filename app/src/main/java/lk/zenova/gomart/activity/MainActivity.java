@@ -58,7 +58,7 @@ import lk.zenova.gomart.model.Address;
 import lk.zenova.gomart.model.User;
 import lk.zenova.gomart.receiver.ConnectivityReceiver;
 
-public class MainActivity extends AppCompatActivity
+public class  MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener,
         BottomNavigationView.OnItemSelectedListener {
 
