@@ -60,7 +60,7 @@ dependencies {
 
     implementation libs.dotsindicator
     implementation libs.gson
-    implementation 'com.google.firebase:firebase-messaging:24.0.0'
+    implementation libs.firebase.messaging.v2400
     implementation libs.play.services.maps
     implementation libs.play.services.location
     implementation libs.places
