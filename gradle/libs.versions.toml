@@ -5,6 +5,7 @@ dotsindicator = "4.3"
 firebaseBom = "34.9.0"
 firebaseDatabase = "20.3.0"
 firebaseMessaging = "23.4.0"
+firebaseMessagingVersion = "24.0.0"
 firebaseUiAuth = "9.0.0"
 firebaseFirestore = "24.11.0"
 glide = "5.0.5"
@@ -31,6 +32,7 @@ firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
 firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
 firebase-database = { module = "com.google.firebase:firebase-database", version.ref = "firebaseDatabase" }
 firebase-messaging = { module = "com.google.firebase:firebase-messaging", version.ref = "firebaseMessaging" }
+firebase-messaging-v2400 = { module = "com.google.firebase:firebase-messaging", version.ref = "firebaseMessagingVersion" }
 firebase-storage = { module = "com.google.firebase:firebase-storage" }
 firebase-firestore = { module = "com.google.firebase:firebase-firestore", version.ref = "firebaseFirestore" }
 firebase-ui-auth = { module = "com.firebaseui:firebase-ui-auth", version.ref = "firebaseUiAuth" }
